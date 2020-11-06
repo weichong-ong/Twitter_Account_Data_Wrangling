@@ -10,7 +10,7 @@ WeRateDogs® is a Twitter account that rates people's dogs with a humorous comme
 As of November 2020, WeRateDogs® has currently nearly 8.8 million followers. WeRateDogs asks people to send photos of their dogs, then tweets selected photos rating and a humorous comment.
 Dogs are rated on a scale of one to ten, but are invariably given ratings in excess of the maximum, such as “13/10”. Why? Because "they're good dogs Brent."
 
-This repo contains all the steps I have taken in gathering, assessing, cleaning and saving the dataset in the data wrangling process.
+This repo contains all the steps in gathering, assessing, cleaning and saving the dataset in the data wrangling process as well as the insights gained by analyzing the cleaned master dataset.
 
 ## Goal
 The original data from the twitter archive is messy and dirty and it should be handled properly without losing important information.
