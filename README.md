@@ -9,6 +9,7 @@ This project is focused on wrangling and analyzing data of [WeRateDogs®](https:
 WeRateDogs® is a Twitter account that rates people's dogs with a humorous comment about the dog.
 As of November 2020, WeRateDogs® has currently nearly 8.8 million followers. WeRateDogs asks people to send photos of their dogs, then tweets selected photos rating and a humorous comment.
 Dogs are rated on a scale of one to ten, but are invariably given ratings in excess of the maximum, such as “13/10”. Why? Because "they're good dogs Brent."
+
 This repo contains all the steps I have taken in gathering, assessing, cleaning and saving the dataset in the data wrangling process.
 
 ## Goal
@@ -16,17 +17,17 @@ The original data from the twitter archive is messy and dirty and it should be h
 The goal is to create clean master dataset that can be used for further analysis to gain “Wow!"-worthy insights about WeRateDogs.
 
 ## Data Gathering
+Method:     Manual download\
 Dataset:    WeRateDogs Twitter Archive - *twitter-archive-enhanced.csv*\
-Source:     Udacity\
-Method:     Manual download
+Source:     Udacity
 
+Method:     Programmatical download via Requests\
 Dataset:    Tweet image predictions - *image_predictions.tsv*\
-Source:     Udacity\
-Method:     Programmatical download via Requests
+Source:     Udacity
 
+Method:     Query Twitter's API using [Tweepy](https://www.tweepy.org)\
 Dataset:    Additional Twitter data - *tweet_json.txt*\
-Source:     WeRateDogs\
-Method:     Query Twitter's API using Tweepy
+Source:     WeRateDogs®
 
 ## Data Assessing
 ### Quality
@@ -53,7 +54,7 @@ Each data qualit and tidiness issues was cleaned programmatically with 3 steps:
 3. **Test:** Test the data to make sure if the code worked
 
 ## Exploratory Data Analysis
-The wrangled master dataset was explored and analyzed to gain insights about WeRateDog®.
+The wrangled master dataset was explored and analyzed to gain insights about WeRateDogs®.
 
 The following questions were answered:
 1. Which tweet of WeRateDogs has the most retweets and favorites?
