@@ -16,22 +16,23 @@ The original data from the twitter archive is messy and dirty and it should be h
 The goal is to create clean master dataset that can be used for further analysis to gain “Wow!"-worthy insights about WeRateDogs.
 
 ## Data Gathering
-**Name:** WeRateDogs Twitter Archive (*twitter-archive-enhanced.csv*)\
-**Source:** Udacity\
-**Method:** Manual download
+Dataset:    WeRateDogs Twitter Archive - *twitter-archive-enhanced.csv*\
+Source:     Udacity\
+Method:     Manual download
 
-**Name:** Tweet image predictions (*image_predictions.tsv*)\
-**Source:** Udacity\
-**Method:** Programmatical download via Requests
+Dataset:    Tweet image predictions - *image_predictions.tsv*\
+Source:     Udacity\
+Method:     Programmatical download via Requests
 
-**Name:** Additional Twitter data (*tweet_json.txt*)\
-**Source:** WeRateDogs\
-**Method:** Query Twitter's API using Tweepy
+Dataset:    Additional Twitter data - *tweet_json.txt*\
+Source:     WeRateDogs\
+Method:     Query Twitter's API using Tweepy
 
 ## Data Assessing
 ### Quality
-- Data quality dimensions help guide thethought process while assessing and also cleaning.
-The four main data quality dimensions are:\
+Data quality dimensions help guide thethought process while assessing and also cleaning.
+
+The four main data quality dimensions are:
 1. Completeness: do we have all of the records that we should? Do we have missing records or not? Are there specific rows, columns, or cells missing?
 2. Validity: we have the records, but they're not valid, i.e., they don't conform to a defined schema. A schema is a defined set of rules for data. These rules can be real-world constraints (e.g. negative height is impossible) and table-specific constraints (e.g. unique key constraints in tables).
 3. Accuracy: inaccurate data is wrong data that is valid. It adheres to the defined schema, but it is still incorrect. Example: a patient's weight that is 5 lbs too heavy because the scale was faulty.
@@ -39,7 +40,8 @@ The four main data quality dimensions are:\
 
 ### Tidiness
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types.
-In tidy data:\
+
+In tidy data:
 1. Each variable forms a column.
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
@@ -50,8 +52,9 @@ Each data qualit and tidiness issues was cleaned programmatically with 3 steps:
 2. **Code:** Convert these words to code
 3. **Test:** Test the data to make sure if the code worked
 
-### Exploratory Data Analysis
-The wrangled master dataset was explored and analyzed to gain insights about WeRateDog®.\
+## Exploratory Data Analysis
+The wrangled master dataset was explored and analyzed to gain insights about WeRateDog®.
+
 The following questions were answered:
 1. Which tweet of WeRateDogs has the most retweets and favorites?
 2. Which dog breed is the most popular in WeRateDogs overall based on retweet counts, favorite
